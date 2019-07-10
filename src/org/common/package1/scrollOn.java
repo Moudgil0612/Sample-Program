@@ -32,8 +32,9 @@ public class scrollOn {
 	        for(int i=1;i<6;i++)
 	        {
 	        	Thread.sleep(3000);
-	        	js.executeScript("scrollBy(0, -400)");  
+	        	js.executeScript("scrollBy(0, -400)");
 	        }
+		  
 
 }
 }
